@@ -15,5 +15,5 @@ button.addEventListener("click", async ()=>{
   let response = await fetch(url + searchTerm)
   let gifs = await response.json()
   console.log(gifs)
-  image.src = gifs.images.original.url
+  image.src = gifs.data[0].images.original.url
 })
