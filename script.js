@@ -3,3 +3,11 @@
 
 // prints "hi" in the browser's dev tools console
 console.log("hi");
+
+let searchButton = document.querySelector("#search")
+
+searchButton.addEventListener("click", getGif)
+
+function getGif(){
+  console.log('I work')
+}
