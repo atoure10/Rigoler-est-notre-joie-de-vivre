@@ -5,7 +5,7 @@ searchButton.addEventListener("click", ()=>{
   sendApiRequest()
 })
 
-function sendApiRequest(){
-  let response = fetch(``)
+async function sendApiRequest(){
+  let response = await fetch(``)
 }
 
