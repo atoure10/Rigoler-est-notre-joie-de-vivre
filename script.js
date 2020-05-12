@@ -22,11 +22,13 @@ async function sendApiRequest(){
 function useApiData(data){
   
   document.querySelector("#content").innerHTML =
-`<div class="card border-primary mb-3" style="max-width: 18rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body text-primary">
-    <h5 class="card-title">Primary card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+`<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">${data[0].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[0]}</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
   </div>
 </div>`
 document.querySelector("#content").innerHTML += data[0].setup
