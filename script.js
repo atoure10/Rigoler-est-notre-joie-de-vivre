@@ -9,8 +9,9 @@ searchButton.addEventListener("click", ()=>{
 
 //An asynchronous function to fetch data from the API.
 async function sendApiRequest(){
-  let response = await fetch(`api.census.gov/data/2018/acs/acs1?get=NAME,group(B01001)&for=us:1&key=YOUR_KEY_GOES_HERE`);
+  let response = await fetch(`https://prime.exchangerate-api.com/v5/7055587b77d6670aa11126b5/latest/USD`);
   console.log(response)
+  let data = await response.json
 }
 
 
