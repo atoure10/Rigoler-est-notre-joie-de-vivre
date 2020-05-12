@@ -9,7 +9,7 @@ searchButton.addEventListener("click", ()=>{
 
 //An asynchronous function to fetch data from the API.
 async function sendApiRequest(){
-  let response = await fetch(``);
+  let response = await fetch(`api.census.gov/data/2018/acs/acs1?get=NAME,group(B01001)&for=us:1&key=YOUR_KEY_GOES_HERE`);
   console.log(response)
 }
 
