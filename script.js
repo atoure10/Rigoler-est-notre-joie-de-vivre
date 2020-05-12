@@ -26,9 +26,8 @@ function useApiData(data){
   <div class="card-body">
     <h5 class="card-title">${data[0].setup}</h5>
     <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
-    <p class="card-text">${data[0]}</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <p class="card-text">${data[0].punchline}</p>
+    
   </div>
 </div>`
 document.querySelector("#content").innerHTML += data[0].setup
