@@ -9,9 +9,11 @@ searchButton.addEventListener("click", ()=>{
 
 //An asynchronous function to fetch data from the API.
 async function sendApiRequest(){
-  let response = await fetch(`https://prime.exchangerate-api.com/v5/7055587b77d6670aa11126b5/latest/USD`);
+  let API_KEY =
+  let response = await fetch(`http://apilayer.net/api/validate?api_key=${API_KEY}  `);
   console.log(response)
-  let data = await response.json
+  let data = await response.json()
+  console.log(data)
 }
 
 
