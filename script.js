@@ -9,16 +9,18 @@ searchButton.addEventListener("click", ()=>{
 
 //An asynchronous function to fetch data from the API.
 async function sendApiRequest(){
-  let API_KEY =
-  let response = await fetch(`http://apilayer.net/api/validate?api_key=${API_KEY}  `);
+ 
+  let response = await fetch(`https://official-joke-api.appspot.com/jokes/programming/random`);
   console.log(response)
   let data = await response.json()
   console.log(data)
+  useApiData(data)
 }
 
 
 //function that does something with the data received from the API. The name of the function should be customized to whatever you are doing with the data
 function useApiData(data){
-
+document.querySelector("#content").innerHTML = data[0].punchline
+  document.querySelector("#content").innerHTML = data[0].setup
 }
 
