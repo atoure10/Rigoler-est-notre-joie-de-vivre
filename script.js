@@ -87,7 +87,7 @@ function useApiData(data){
 </div>`
    
     document.querySelector("#content").innerHTML +=
-`<div id="card" style="width: 18rem;">
+`<div id="card7" style="width: 18rem;">
 
   <div class="card-body">
     <h5 class="card-title">${data[6].setup}</h5>
@@ -98,7 +98,7 @@ function useApiData(data){
 </div>`
     
      document.querySelector("#content").innerHTML +=
-`<div id="card2" style="width: 18rem;">
+`<div id="card8" style="width: 18rem;">
 
   <div class="card-body">
     <h5 class="card-title">${data[7].setup}</h5>
@@ -109,7 +109,7 @@ function useApiData(data){
 </div>`
      
       document.querySelector("#content").innerHTML +=
-`<div id="card2" style="width: 18rem;">
+`<div id="card9" style="width: 18rem;">
 
   <div class="card-body">
     <h5 class="card-title">${data[8].setup}</h5>

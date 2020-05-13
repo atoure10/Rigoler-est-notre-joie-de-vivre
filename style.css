@@ -9,3 +9,49 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+#card1{
+   border: 5px solid ;
+  border-radius: 5px;
+   border-color: red green blue yellow;
+}
+#card2{
+   border: 5px solid ;
+  border-radius: 5px;
+  border-color: tomato orange slateblue yellow;
+}
+
+#card3{
+   border: 5px solid red;
+  border-radius: 5px;
+  border-color: 
+}
+#card4{ 
+  border: 5px solid red;
+   border-radius: 5px;
+  border-color: 
+}
+#card5{
+border: 5px solid red;
+  border-radius: 5px;
+  border-color: 
+}
+#card6{
+   border: 5px solid red;
+  border-radius: 5px;
+  border-color: 
+}
+#card7{
+   border: 5px solid red;
+  border-radius: 5px;
+  border-color: 
+}
+#card8{
+   border: 5px solid red;
+  border-radius: 5px;
+  border-color: 
+}
+#card9{ 
+  border: 5px solid red;
+  border-radius: 5px;
+  border-color: 
+}
