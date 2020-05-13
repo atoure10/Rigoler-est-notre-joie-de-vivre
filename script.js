@@ -7,6 +7,7 @@ searchButton.addEventListener("click", ()=>{
 })
 
 
+
 //An asynchronous function to fetch data from the API.
 async function sendApiRequest(){
  
