@@ -21,8 +21,8 @@ async function sendApiRequest(){
 //function that does something with the data received from the API. The name of the function should be customized to whatever you are doing with the data
 function useApiData(data){
   
-  document.querySelector("#content").innerHTML =
-`<div class="card" style="width: 18rem;">
+  document.querySelector("#content").innerHTML +=
+`<div id="card1" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">${data[0].setup}</h5>
     <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
@@ -30,31 +30,96 @@ function useApiData(data){
     
   </div>
 </div>`
-document.querySelector("#content").innerHTML += data[0].setup
-  document.querySelector("#content").innerHTML += data[0].punchline
-  
-  document.querySelector("#content").innerHTML += data[1].setup
-  document.querySelector("#content").innerHTML += data[1].punchline
-  
-  document.querySelector("#content").innerHTML += data[2].setup
-  document.querySelector("#content").innerHTML += data[2].punchline
-  
-  document.querySelector("#content").innerHTML += data[3].setup
-  document.querySelector("#content").innerHTML += data[3].punchline
-  
-  document.querySelector("#content").innerHTML += data[4].setup
-  document.querySelector("#content").innerHTML += data[4].punchline
-  
-  document.querySelector("#content").innerHTML += data[5].setup
-  document.querySelector("#content").innerHTML += data[5].punchline
-  
-  document.querySelector("#content").innerHTML += data[6].setup
-  document.querySelector("#content").innerHTML += data[6].punchline
-  
-  document.querySelector("#content").innerHTML += data[7].setup
-  document.querySelector("#content").innerHTML += data[7].punchline
-  
-  document.querySelector("#content").innerHTML += data[8].setup
-  document.querySelector("#content").innerHTML += data[8].punchline
-}
+ 
+  document.querySelector("#content").innerHTML +=
+`<div id="card2" style="width: 18rem;">
 
+  <div class="card-body">
+    <h5 class="card-title">${data[1].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[1].punchline}</p>
+    
+  </div>
+</div>`
+
+   document.querySelector("#content").innerHTML +=
+`<div id="card3" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">${data[2].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[2].punchline}</p>
+    
+  </div>
+</div>`
+
+ document.querySelector("#content").innerHTML +=
+`<div id="card4" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">${data[3].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[3].punchline}</p>
+    
+  </div>
+</div>`
+ 
+  document.querySelector("#content").innerHTML +=
+`<div id="card5" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">${data[4].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[4].punchline}</p>
+    
+  </div>
+</div>`
+  
+   document.querySelector("#content").innerHTML +=
+`<div id="card6" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">${data[5].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[5].punchline}</p>
+    
+  </div>
+</div>`
+   
+    document.querySelector("#content").innerHTML +=
+`<div id="card" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">${data[6].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[6].punchline}</p>
+    
+  </div>
+</div>`
+    
+     document.querySelector("#content").innerHTML +=
+`<div id="card2" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">${data[7].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[7].punchline}</p>
+    
+  </div>
+</div>`
+     
+      document.querySelector("#content").innerHTML +=
+`<div id="card2" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">${data[8].setup}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Guess First...</h6>
+    <p class="card-text">${data[8].punchline}</p>
+    
+  </div>
+</div>`
+}
+  
+
+  
+  
