@@ -2,13 +2,10 @@
 #content{
   
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 500px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 200px 200px 200px ;
   grid-gap: 10px;
-  margin: 100px;
-  font-family: Helvetica;
-  text-align:center;
-  font-size: 30px
+  
     
 }
 body {
